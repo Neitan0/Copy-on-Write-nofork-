@@ -11,6 +11,5 @@ Compara o `fork()` com COW contra o fork "ingênuo" (copia tudo na hora), varian
 ```bash
 make            # compila cow e exportar
 ./cow           # demo + tabela (sorteio diferente a cada execução)
-./cow 42        # usa a semente 42 (resultado reproduzível)
 ./exportar      # gera CSV e gráficos SVG (também aceita a semente)
 ```
